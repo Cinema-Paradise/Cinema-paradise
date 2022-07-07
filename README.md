@@ -8,14 +8,15 @@ Check out [FRONTEND LIVE DEMO](https://cinema-paradise-frontend.herokuapp.com/) 
 Check out [API LIVE DEMO](https://cinema-paradise-backend.herokuapp.com/) here!!
 
 ## Tech used
-
+```
 * Frontend : React & Redux
 * Backend : Django
 ```
 ## How to Install
 1. Git Clone
-
-
+```
+git clone 
+```
 2. Backend setting
 ```
 cd backend
@@ -26,8 +27,8 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
-Open http://127.0.0.1:8000/posts/
-To have dummy data for testing run:
+# Open http://127.0.0.1:8000/
+# To have dummy data for testing run:
 python manage.py fixtures/dummy-data.json
 ```
 3. Frontend setting
@@ -35,7 +36,7 @@ python manage.py fixtures/dummy-data.json
 cd frontend
 npm install
 npm start
-Open http://127.0.0.1:3000/
+# Open http://127.0.0.1:3000/
 ```
 
 
