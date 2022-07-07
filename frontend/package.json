@@ -1049,17 +1049,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+<<<<<<< HEAD
   "browserslist": {
     "production": [
       ">0.2%",
@@ -1072,6 +1064,8 @@
       "last 1 safari version"
     ]
   },
+=======
+>>>>>>> ffc28b2a0d4db406744f52b0b22628912a96b150
   "author": "",
   "license": "ISC"
 }
