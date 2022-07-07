@@ -6,10 +6,9 @@ Cinema Paradise project build with a frontend built in React & Redux and a backe
 **This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.**
 Check out [FRONTEND LIVE DEMO](https://cinema-paradise-frontend.herokuapp.com/) here!!
 Check out [API LIVE DEMO](https://cinema-paradise-backend.herokuapp.com/) here!!
+
 ## Tech used
-![image](https://user-images.githubusercontent.com/97461302/149033146-2401106e-7c68-400d-a63a-81ee15952363.png)
-![image](https://user-images.githubusercontent.com/97461302/149033406-136fb454-6408-4e4b-aa1f-739161444615.png)
-```
+
 * Frontend : React & Redux
 * Backend : Django
 ```
