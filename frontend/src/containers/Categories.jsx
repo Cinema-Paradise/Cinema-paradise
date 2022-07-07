@@ -42,21 +42,21 @@ const Categories = () => {
             .catch(error => {
                 alert('Failed to connect API: /movies/');
             });
-        api.getMovies({ category_id: '8' })
+        api.getMovies({ category_id: '2' })
             .then(movies => {
                 setCategoryCrime(movies);
             })
             .catch(error => {
                 alert('Failed to connect API: /movies/');
             });
-        api.getMovies({ category_id: '6' })
+        api.getMovies({ category_id: '3' })
             .then(movies => {
                 setCategoryRomance(movies);
             })
             .catch(error => {
                 alert('Failed to connect API: /movies/');
             });
-        api.getMovies({ category_id: '7' })
+        api.getMovies({ category_id: '4' })
             .then(movies => {
                 setCategoryAction(movies);
             })
