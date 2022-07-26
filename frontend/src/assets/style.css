@@ -483,15 +483,17 @@ img.backgroundImg1 {
   border-radius: .8vw;
   color: white;
   font-weight: 500;
-  font-size: 1vw;
+  font-size: 2vw;
   padding: 0.5vw 1vw;
   background: #494949e8;
   border: 0;
   margin-top: 5vw;
+  display: flex;
+  align-items: center;
 }
 
 .playnow-Btn img {
-  width: 10vw;
+  width: 3vw;
 }
 
 
