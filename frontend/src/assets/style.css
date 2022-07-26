@@ -444,15 +444,16 @@ img.backgroundImg1 {
   gap: 1vw;
 }
 
+.discription a {
+  text-decoration: none;
+}
+
 .discription p {
   font-size: 1vw;
 }
-.discription img {
-  width:10vw;
-}
 
 .discription h2{
- font-size: 4vw;
+ font-size: 2vw;
  font-weight: 400;
 }
 
@@ -490,6 +491,7 @@ img.backgroundImg1 {
   margin-top: 5vw;
   display: flex;
   align-items: center;
+  gap:1vw;
 }
 
 .playnow-Btn img {
