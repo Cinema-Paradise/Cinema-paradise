@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import API from '../../API';
 import { useDispatch } from 'react-redux';
 import Rating from "../../assets/img/Rating.png";
-import PlayNow from "../../assets/img/Play-Now.png";
+import PlayNow from "../../assets/img/Playnow.png";
 
 
 const api = new API();
@@ -50,7 +50,7 @@ const Preview = ({ setShowPreview, selectedMovieId }) => {
                             </p>
 
                             <a href={movie.trailer_link} target="_blank"><button class="playnow-Btn">
-                                <img src={PlayNow} alt="Play" />
+                                Play Now<img src={PlayNow} alt="Play" />
                             </button></a>
                         </div>
                     </div>
