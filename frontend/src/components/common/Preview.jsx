@@ -29,7 +29,7 @@ const Preview = ({ setShowPreview, selectedMovieId }) => {
             {movie && (
                 <div class="active-movie">
 
-                    <button class="close"><a href="/">X</a></button><div class="play-movie">
+                    <button class="close"><a href="/">x</a></button><div class="play-movie">
                         <div class="movie-img"><img src={movie.image} alt="iceAge" /></div>
                         <div class="discription">
                             <h2>{movie.name}</h2>
